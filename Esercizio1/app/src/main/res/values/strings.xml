@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Exercises</string>
+    <string name="main_string">Hello user! Welcome to my app</string>
+    <string name="button">I\'m a button</string>
 </resources>
