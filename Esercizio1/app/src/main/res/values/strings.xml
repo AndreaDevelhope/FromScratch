@@ -3,4 +3,5 @@
     <string name="main_string">Hello user! Welcome to my app</string>
     <string name="button">I\'m a button</string>
     <string name="first_fragment">This is the first fragment</string>
+    <string name="first_fragment_button">Button First F</string>
 </resources>

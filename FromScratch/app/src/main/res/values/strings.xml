@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FromScratch</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment</string>
+    <string name="hello_third_fragment">Hello third fragment</string>
+    <string name="button_next_fragment">Next</string>
+    <string name="button_previous_fragment">Previous</string>
+    <string name="go_to_2nd_activity">Go to second Activity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="second_activity">This is the second activity</string>
+    <string name="go_to_first_fragment">Go to first fragment</string>
+    <string name="first_fragment">First Fragment</string>
+    <string name="second_fragment">Second Fragment</string>
+    <string name="third_fragment">Third Fragment</string>
+</resources>
