@@ -9,7 +9,7 @@ import androidx.navigation.fragment.findNavController
 import com.example.fromscratch.databinding.FragmentSecondBinding
 
 
-class SecondFragment : Fragment() {
+class   SecondFragment : Fragment() {
     private lateinit var binding: FragmentSecondBinding
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,

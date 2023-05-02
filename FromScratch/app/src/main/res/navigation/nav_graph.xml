@@ -36,15 +36,17 @@
         android:name="com.example.fromscratch.ThirdFragment"
         android:label="ThirdFragment"
         tools:layout="@layout/fragment_third">
-    </fragment>
         <action
             android:id="@+id/action_thirdFragment_to_secondFragment"
             app:destination="@+id/secondFragment"/>
+    </fragment>
+
     <activity
         android:id="@+id/secondActivity"
         android:name="com.example.fromscratch.SecondActivity"
         android:label="activity_second"
-        tools:layout="@layout/activity_second"
-    />
+        tools:layout="@layout/activity_second">
+
+    </activity>
 
 </navigation>
