@@ -14,11 +14,11 @@
         android:backgroundTint="@color/black"
         tools:ignore="MissingConstraints" />
         <TextView
+            android:id="@+id/toolbar_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/second_activity"
             android:layout_gravity="center"
-            android:id="@+id/toolbar_title"
             android:textColor="@color/white"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -31,7 +31,7 @@
         android:id="@+id/text_secondActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/second_activity"
+        android:hint="@string/type_here"
         android:inputType="text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

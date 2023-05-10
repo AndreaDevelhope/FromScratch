@@ -8,8 +8,10 @@ import android.widget.Toast
 import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
+import androidx.navigation.ui.setupWithNavController
+import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.fromscratch.databinding.ActivityMainBinding
-
+import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
 class MainActivity : AppCompatActivity() {
@@ -24,6 +26,16 @@ class MainActivity : AppCompatActivity() {
         val navController = findNavController(R.id.nav_host_fragment)
         appBarConfiguration = AppBarConfiguration(navController.graph)
         setupActionBarWithNavController(navController, appBarConfiguration)
+        val bottomNavigationView = findViewById<BottomNavigationView>(R.id.bottom_nav)
+        bottomNavigationView.setupWithNavController(navController)
+
+        binding.recyclerview.layoutManager = LinearLayoutManager(this)
+        val items = listOf(
+            ItemData(R.drawable.baseline_call_24, R.string.second_activity),
+            ItemData(R.drawable.baseline_child_friendly_24, R.string.first_fragment),
+            ItemData(R.drawable.baseline_beach_access_24, R.string.text_edit)
+        )
+        binding.recyclerview.adapter = ListAdapter(items)
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

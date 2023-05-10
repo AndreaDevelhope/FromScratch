@@ -21,7 +21,9 @@ class SecondActivity : AppCompatActivity() {
             Snackbar.make(binding.editText, binding.textSecondActivity.text, Snackbar.LENGTH_SHORT).show()
         }
 //        binding.buttonSecondActivity.setOnClickListener{
-//            findNavController(R.id.nav_host_fragment).navigate(R.id.second_activity_action)
+//            findNavController(R.id.nav_host_fragment).navigate(R.id.action_secondFragment_to_firstFragment)
 //        }
     }
+
+
 }

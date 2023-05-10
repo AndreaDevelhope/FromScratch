@@ -13,4 +13,6 @@
     <string name="second_fragment">Second Fragment</string>
     <string name="third_fragment">Third Fragment</string>
     <string name="text_edit">Change the title of the Activity</string>
+    <string name="recycler_view">Recycler View</string>
+    <string name="type_here">Type the title here</string>
 </resources>

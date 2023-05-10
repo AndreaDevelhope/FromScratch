@@ -3,13 +3,16 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:id="@+id/fragment_first"
         android:title="@string/first_fragment"
+        android:icon="@drawable/baseline_beach_access_24"
         />
 
     <item android:id="@+id/fragment_second"
         android:title="@string/second_fragment"
+        android:icon="@drawable/baseline_call_24"
          />
 
     <item android:id="@+id/fragment_third"
         android:title="@string/third_fragment"
+        android:icon="@drawable/baseline_child_friendly_24"
         />
 </menu>
